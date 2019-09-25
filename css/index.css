@@ -134,6 +134,9 @@ html,
 body {
   height: 100%;
 }
+.flex-box {
+  display: flex;
+}
 .container {
   width: 95%;
   margin: auto;
@@ -164,4 +167,12 @@ body {
   text-align: center;
   font-size: 30px;
   line-height: 50px;
+}
+.container footer {
+  padding-top: 1%;
+}
+.container footer div h2 {
+  font-size: 20px;
+  text-decoration: underline;
+  margin-bottom: 1%;
 }
